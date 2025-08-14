@@ -7,14 +7,17 @@ html{
 }
 body{
     overflow-x: hidden;
+    
 }
 header{
     position: relative;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 110%;
     height: 50rem;
     background-color: skyblue;
+    right: 0;
+
 }
 header .top-section{
     position: fixed;
@@ -29,6 +32,10 @@ header .top-section{
     align-items: center;
     padding: 0 20%;
     
+}
+
+.icon{
+    display:none;
 }
 header .top-section ul{
 display: flex;
@@ -56,6 +63,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 flex-direction: column;
+padding:  0 10%;
 
 }
 header .intro h1{
@@ -114,6 +122,7 @@ header .intro button{
     /* left: 30%; */
     width: 50%;
     right: 25%;
+    
 }
 
  .section-1 .about-me h1{
@@ -203,7 +212,17 @@ h2{
         font-size:50%;
     }
 }
-@media (max-width:64rem) {
+
+@media (max-width:62.5rem) {
+ 
+   
+    
+}
+
+
+
+
+/* @media (max-width:64rem) {
     html{
         font-size:40%;
     }
@@ -244,7 +263,9 @@ h2{
 
 
 
-}
+} */
+
+
 @media (max-width:420px) {
 /* .section-1{
     display: flex;
@@ -258,8 +279,85 @@ h2{
 
 
 }
-/* @media (max-width:96rem) {
+@media (max-width:40rem) {
+        
     html{
-        font-size:62.5%;
+        font-size: 50%;
     }
-} */
+    
+    .main-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container{
+            display: block;
+        }
+
+         .section-1{
+        justify-content: center;
+        height: 60rem;
+        align-items: normal;
+    }
+
+    .section-1 .profile-div{
+        top: 10%;
+    }
+
+    .section-1 .about-me{
+        
+        width: 50%;
+        
+        
+    }
+    
+    .main-about{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 55%;
+        
+    }
+
+    .work{
+        position: relative;
+        left: 10%;
+    }
+}
+
+@media (max-width:64.3rem) {
+    .section-1 .about-me{
+        right: 17%;
+        top: 40%;
+    
+    }
+}
+@media (max-width:50.6rem) {
+    .section-1 .about-me{
+        right: 10%;
+        top: 40%;
+    
+    }
+}
+
+@media (max-width:510px) {
+    
+.top-section ul li{
+    display: none;
+}
+
+
+        .icon{
+    
+    font-size: 3rem;
+    color: #ffff;
+    position: absolute;
+    right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+}
