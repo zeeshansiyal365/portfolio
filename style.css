@@ -1,5 +1,7 @@
-*{
+ *{
     margin: 0;padding: 0;box-sizing: border-box;
+
+
 }
 
 html{
@@ -16,7 +18,7 @@ header{
     width: 110%;
     height: 50rem;
     background-color: skyblue;
-    right: 0;
+    
 
 }
 header .top-section{
@@ -52,10 +54,7 @@ margin: 2.5rem;
 }
 
 header .intro{
-    /* position: absolute;
-    left: 30%;
-    top: 40%;
-    text-align: center; */
+  
 height: 100%;
 width: 100%;
 display: flex;
@@ -92,7 +91,7 @@ header .intro button{
     width: 100%;
     display: flex;
     align-items: center;
-    /* flex-direction: column; */
+  
 
 }
 .profile-div{
@@ -105,7 +104,6 @@ header .intro button{
     width: 25rem;
     border: 1.5rem solid green;
     border-radius: 50%;
-/* margin-top: 30%; */
 }
 .profile-div img{
     position: absolute;
@@ -119,7 +117,6 @@ header .intro button{
  .section-1 .about-me{
     position: absolute;
     top: 45%;
-    /* left: 30%; */
     width: 50%;
     right: 25%;
     
@@ -133,8 +130,7 @@ header .intro button{
  }
  .section-1 .about-me p{
     font-size: 2.5rem;
-    /* text-transform: capitalize; */
-    /* text-align: center; */
+
  }
 h2{
     display: flex;
@@ -172,10 +168,12 @@ h2{
     justify-content: center;
 }
 
+
+
 .input-container input{
     display: block;
     padding: 1rem;
-    width: 100%;
+    width: 90%;
     font-size: 2rem;
     color: darkgray;
     text-transform: capitalize;
@@ -189,12 +187,16 @@ h2{
     color: darkgray;
 }
 
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
 .input-container button{
     padding: 1rem 3rem;
     font-size: 2rem;
     text-transform: capitalize;
     background-color: black;
-    /* border: 3px solid green; */
     cursor: pointer;
     margin-left: 3rem;
     color: #ffff;
@@ -222,54 +224,9 @@ h2{
 
 
 
-/* @media (max-width:64rem) {
-    html{
-        font-size:40%;
-    }
-}
-@media (max-width:48rem) {
-    html{
-        font-size:30%;
-    }
-}
-@media (max-width:25rem) {
-    html{
-        font-size:15%;
-    }
-
-
-
-}
-@media (max-width:20rem) {
-    html{
-        font-size:10%;
-    }
-
-
-
-}
-@media (max-width:15rem) {
-    html{
-        font-size:5%;
-    }
-
-
-
-}
-@media (max-width:40rem) {
-    html{
-        font-size:20%;
-    }
-
-
-
-} */
 
 
 @media (max-width:420px) {
-/* .section-1{
-    display: flex;
-} */
 
 
     .section-1 .about-me {
@@ -289,9 +246,11 @@ h2{
             display: flex;
             flex-direction: column;
             align-items: center;
+            
         }
         .container{
             display: block;
+            width: 35rem;
         }
 
          .section-1{
@@ -360,4 +319,5 @@ h2{
 
 }
     
-}
+} 
+
